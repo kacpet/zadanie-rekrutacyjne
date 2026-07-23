@@ -1,5 +1,7 @@
 import Slider from "./slider/slider";
 import arrow from "./svg/arrow.svg";
+
+
 function Home() {
   return (
     <div className="flex justify-between w-full h-screen bg-[#DCC1AB]">

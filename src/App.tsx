@@ -1,15 +1,26 @@
-import Navbar from "./components/navbar/navbar";
-import Home from "./components/home/home";
+import { useEffect, useState } from "react";
 
-import Offer from "./components/offer/offer";
-import About from "./components/about/about";
-import Projects from "./components/projects/projects";
-import Contact from "./components/contact/contact";
+import { getScreenType } from "./utils/getScreenType";
+import { getComponents } from "./components/getComponents";
 
-import Footer from "./components/footer/footer";
 function App() {
+  const [screenType, setScreenType] = useState(getScreenType);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenType(getScreenType());
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const { Navbar, Home, Offer, About, Projects, Contact, Footer } =
+    getComponents(screenType);
+
   return (
-    <div>
+    <>
       <Navbar />
       <Home />
       <Offer />
@@ -17,7 +28,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
