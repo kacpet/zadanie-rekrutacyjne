@@ -13,7 +13,7 @@ function Projects() {
           src={projectsImgs}
           alt="nasze projekty"
         />
-        <button className="flex absolute bottom-0 mb-38 left-1/2 -translate-x-[calc(50%+123px) font-inter rounded-[200px] text-black px-5.5 pt-3 pb-3.5 bg-[rgba(,,,0)] border border-black duration-500 hover:scale-105 hover:shadow-[0_2px_10px_rgba(20,83,45,0.15)]">
+        <button className="flex absolute bottom-0 mb-38  left-[calc(50%-61.5px)] font-inter rounded-[200px] text-black px-5.5 pt-3 pb-3.5 bg-[rgba(,,,0)] border border-black duration-500 hover:scale-105 hover:shadow-[0_2px_10px_rgba(20,83,45,0.15)]">
           Rozwiń
           <img className="ml-2" src={arrow} alt="strzałka"/>
         </button>
