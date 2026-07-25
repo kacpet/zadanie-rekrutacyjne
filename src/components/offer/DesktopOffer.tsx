@@ -1,11 +1,12 @@
 import { motion } from "motion/react";
+import type { Variants } from "motion/react";
 
 import pen from "./svg/pen.svg";
 import eye from "./svg/eye.svg";
 import stars from "./svg/stars.svg";
 import arrow from "./svg/arrow.svg";
 
-const textContainer = {
+const textContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
@@ -14,7 +15,7 @@ const textContainer = {
   },
 };
 
-const cardContainer = {
+const cardContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
@@ -24,7 +25,7 @@ const cardContainer = {
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: {
     opacity: 0,
     y: 40,
@@ -38,10 +39,9 @@ const item = {
     },
   },
 };
-
 function Offer() {
   return (
-    <div id="offer" className="h-screen w-full bg-[#F5F0EC] pt-30 pb-40">
+    <div id="offer" className="min-h-screen w-full bg-[#F5F0EC] pt-30 pb-40">
       <motion.div
         variants={textContainer}
         initial="hidden"

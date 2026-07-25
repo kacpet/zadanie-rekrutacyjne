@@ -1,9 +1,9 @@
-import garden from "./svg/garden.svg";
-import arrow from "./svg/arrow.svg"
+// import garden from "./svg/garden.svg";
+// import arrow from "./svg/arrow.svg"
 function Offer() {
   return (
     <div id="about" className="h-screen w-full bg-[#1B5B31] flex items-center">
-      <div className="h-screen">
+      {/* <div className="h-screen">
         <img className="h-full" src={garden} alt="ogród" />
       </div>
       <div className="flex-1 h-screen flex justify-center items-center">
@@ -26,7 +26,7 @@ function Offer() {
             Poznaj nas bliżej <img className="ml-2" src={arrow} alt="strzałka" /> </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

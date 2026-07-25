@@ -1,10 +1,12 @@
+// import Footer from "../footer/DesktopFooter"
 function Contact() {
   return (
-    <div
+  <div id="contact" className="min-h-screen">
+    {/* <div
       id="contact"
       className="flex w-full h-fit bg-white justify-center text-[#F5F0EC]"
     >
-      <div className="flex my-[60px] w-[1040px] py-[120px] px-[110px] bg-[#1B5B31]">
+      <div className="flex my-[60px] w-[1040px] py-[120px] px-[110px] bg-[#1B5B31] snap-start">
         <div>
           <h2 className="text-white text-5xl font-medium">
             Zostańmy w kontakcie! <br />
@@ -23,6 +25,8 @@ function Contact() {
           </button>
         </div>
       </div>
+    </div>
+    <Footer/> */}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import projectsImgs from "./svg/projects.svg";
+import projectsImgs from "./webp/projects.webp";
 import arrow from "./svg/arrow.svg";
 function Projects() {
   return (

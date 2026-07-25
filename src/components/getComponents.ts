@@ -1,89 +1,60 @@
-// Navbar
-import DesktopNavbar from "./navbar/DesktopNavbar";
-import TabletNavbar from "./navbar/TabletNavbar";
-import MobileNavbar from "./navbar/MobileNavbar";
-
-// Home
-import DesktopHome from "./home/DesktopHome";
-import TabletHome from "./home/TabletHome";
-import MobileHome from "./home/MobileHome";
-
-// Offer
-import DesktopOffer from "./offer/DesktopOffer";
-import TabletOffer from "./offer/TabletOffer";
-import MobileOffer from "./offer/MobileOffer";
-
-// About
-import DesktopAbout from "./about/DesktopAbout";
-import TabletAbout from "./about/TabletAbout";
-import MobileAbout from "./about/MobileAbout";
-
-// Projects
-import DesktopProjects from "./projects/DesktopProjects";
-import TabletProjects from "./projects/TabletProjects";
-import MobileProjects from "./projects/MobileProjects";
-
-// Contact
-import DesktopContact from "./contact/DesktopContact";
-import TabletContact from "./contact/TabletContact";
-import MobileContact from "./contact/MobileContact";
-
-// Footer
-import DesktopFooter from "./footer/DesktopFooter";
-import TabletFooter from "./footer/TabletFooter";
-import MobileFooter from "./footer/MobileFooter";
+import { lazy } from "react";
 
 import type { ScreenType } from "../types/screenType";
 
+// Mobile
+const MobileNavbar = lazy(() => import("./navbar/MobileNavbar"));
+const MobileHome = lazy(() => import("./home/MobileHome"));
+const MobileOffer = lazy(() => import("./offer/MobileOffer"));
+const MobileAbout = lazy(() => import("./about/MobileAbout"));
+const MobileProjects = lazy(() => import("./projects/MobileProjects"));
+const MobileContact = lazy(() => import("./contact/MobileContact"));
+
+// Tablet
+const TabletNavbar = lazy(() => import("./navbar/TabletNavbar"));
+const TabletHome = lazy(() => import("./home/TabletHome"));
+const TabletOffer = lazy(() => import("./offer/TabletOffer"));
+const TabletAbout = lazy(() => import("./about/TabletAbout"));
+const TabletProjects = lazy(() => import("./projects/TabletProjects"));
+const TabletContact = lazy(() => import("./contact/TabletContact"));
+
+// Desktop
+const DesktopNavbar = lazy(() => import("./navbar/DesktopNavbar"));
+const DesktopHome = lazy(() => import("./home/DesktopHome"));
+const DesktopOffer = lazy(() => import("./offer/DesktopOffer"));
+const DesktopAbout = lazy(() => import("./about/DesktopAbout"));
+const DesktopProjects = lazy(() => import("./projects/DesktopProjects"));
+const DesktopContact = lazy(() => import("./contact/DesktopContact"));
+
 export function getComponents(screenType: ScreenType) {
+  if (screenType === "mobile") {
+    return {
+      Navbar: MobileNavbar,
+      Home: MobileHome,
+      Offer: MobileOffer,
+      About: MobileAbout,
+      Projects: MobileProjects,
+      Contact: MobileContact,
+    };
+  }
+
+  if (screenType === "tablet") {
+    return {
+      Navbar: TabletNavbar,
+      Home: TabletHome,
+      Offer: TabletOffer,
+      About: TabletAbout,
+      Projects: TabletProjects,
+      Contact: TabletContact,
+    };
+  }
+
   return {
-    Navbar:
-      screenType === "desktop"
-        ? DesktopNavbar
-        : screenType === "tablet"
-          ? TabletNavbar
-          : MobileNavbar,
-
-    Home:
-      screenType === "desktop"
-        ? DesktopHome
-        : screenType === "tablet"
-          ? TabletHome
-          : MobileHome,
-
-    Offer:
-      screenType === "desktop"
-        ? DesktopOffer
-        : screenType === "tablet"
-          ? TabletOffer
-          : MobileOffer,
-
-    About:
-      screenType === "desktop"
-        ? DesktopAbout
-        : screenType === "tablet"
-          ? TabletAbout
-          : MobileAbout,
-
-    Projects:
-      screenType === "desktop"
-        ? DesktopProjects
-        : screenType === "tablet"
-          ? TabletProjects
-          : MobileProjects,
-
-    Contact:
-      screenType === "desktop"
-        ? DesktopContact
-        : screenType === "tablet"
-          ? TabletContact
-          : MobileContact,
-
-    Footer:
-      screenType === "desktop"
-        ? DesktopFooter
-        : screenType === "tablet"
-          ? TabletFooter
-          : MobileFooter,
+    Navbar: DesktopNavbar,
+    Home: DesktopHome,
+    Offer: DesktopOffer,
+    About: DesktopAbout,
+    Projects: DesktopProjects,
+    Contact: DesktopContact,
   };
 }

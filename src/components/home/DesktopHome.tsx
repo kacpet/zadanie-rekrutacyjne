@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-import Slider from "./slider/slider";
+import Slider from "./slider/DesktopSlider";
 import arrow from "./svg/arrow.svg";
 
 const container = {
@@ -28,39 +28,30 @@ const item = {
 
 function Home() {
   return (
-    <div className="flex justify-between w-full h-screen bg-[#DCC1AB]">
+    <div
+      id="home"
+      className="min-h-screen  flex justify-between w-full  bg-[#DCC1AB]"
+    >
       <motion.div
         variants={container}
         initial="hidden"
         animate="visible"
         className="flex flex-col w-752/1440 justify-center px-16"
       >
-        <motion.h1
-          variants={item}
-          className="text-6xl font-medium"
-        >
+        <motion.h1 variants={item} className="text-6xl font-medium">
           Nowoczesna <br />
           aranżacja <br />
           Twojego ogrodu
         </motion.h1>
 
-        <motion.p
-          variants={item}
-          className="pt-11 font-inter font-normal"
-        >
+        <motion.p variants={item} className="pt-11 font-inter font-normal">
           Marka GiardDesign to wieloletnie doświadczenie i wysoka <br />
           estetyka realizacji. Oferujemy kompleksowy zakres usług
-          <br />
-          z indywidualnym podejściem do każdego projektu.
+          <br />z indywidualnym podejściem do każdego projektu.
         </motion.p>
 
-        <motion.div
-          variants={item}
-          className="flex pt-18"
-        >
-          <button
-            className="font-inter rounded-[200px] bg-[#1B5B31] px-5.5 pt-3 pb-3.5 mr-8 text-[#DCC1AB] hover:bg-green-800 duration-500 hover:scale-105 transition-transform hover:shadow-[0_2px_10px_rgba(20,83,45,0.15)]"
-          >
+        <motion.div variants={item} className="flex pt-18">
+          <button className="font-inter rounded-[200px] bg-[#1B5B31] px-5.5 pt-3 pb-3.5 mr-8 text-[#DCC1AB] hover:bg-green-800 duration-500 hover:scale-105 transition-transform hover:shadow-[0_2px_10px_rgba(20,83,45,0.15)]">
             <a target="_blank" href="https://www.example.com/contact">
               Skontaktuj się z nami
             </a>

@@ -1,15 +1,38 @@
+import type { ReactNode, AnchorHTMLAttributes } from "react";
 import clsx from "clsx";
 
-export function GradientLink({ children, className = "", ...props }) {
-  return (
-    <a {...props} className={clsx("relative group", className)}>
-      <span className="transition-opacity duration-300 group-hover:opacity-0">
-        {children}
-      </span>
+const defaultClass = "relative inline-block cursor-pointer text-center";
 
-      <span className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-gradient-to-r from-green-900 to-green-800 bg-clip-text text-transparent">
-        {children}
-      </span>
+interface GradientLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+  children: ReactNode;
+  className?: string;
+}
+
+export function GradientLink({
+  children,
+  className = "",
+  ...props
+}: GradientLinkProps) {
+  return (
+    <a
+      {...props}
+      data-text={children}
+      className={clsx(
+        defaultClass,
+        "text-black",
+        "after:absolute after:inset-0",
+        "after:flex after:items-center",
+        "after:justify-center",
+        "after:content-[attr(data-text)]",
+        "after:bg-gradient-to-r after:from-green-900 after:to-green-800",
+        "after:bg-clip-text after:text-transparent",
+        "after:opacity-0",
+        "after:transition-opacity after:duration-300",
+        "hover:after:opacity-100",
+        className,
+      )}
+    >
+      {children}
     </a>
   );
 }

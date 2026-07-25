@@ -1,9 +1,10 @@
 import { motion } from "motion/react";
+import type { Variants } from "motion/react";
 
 import garden from "./svg/garden.svg";
 import arrow from "./svg/arrow.svg";
 
-const imageAnimation = {
+const imageAnimation: Variants = {
   hidden: {
     opacity: 0,
     x: -60,
@@ -18,7 +19,7 @@ const imageAnimation = {
   },
 };
 
-const textContainer = {
+const textContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
@@ -27,7 +28,7 @@ const textContainer = {
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: {
     opacity: 0,
     x: 50,
@@ -42,11 +43,11 @@ const item = {
   },
 };
 
-function Offer() {
+function About() {
   return (
-    <div
+    <section
       id="about"
-      className="h-screen w-full bg-[#1B5B31] flex items-center"
+      className="h-screen w-full bg-[#1B5B31] flex items-center snap-start"
     >
       <motion.div
         variants={imageAnimation}
@@ -55,11 +56,7 @@ function Offer() {
         viewport={{ once: true, amount: 0.3 }}
         className="h-screen"
       >
-        <img
-          className="h-full"
-          src={garden}
-          alt="ogród"
-        />
+        <img className="h-full" src={garden} alt="ogród" />
       </motion.div>
 
       <div className="flex-1 h-screen flex justify-center items-center">
@@ -70,21 +67,11 @@ function Offer() {
           viewport={{ once: true, amount: 0.3 }}
           className="w-150 h-112.5 text-[#F5F0EC] pl-24 flex flex-col justify-center"
         >
-          <motion.h1
-            variants={item}
-            className="text-5xl font-medium"
-          >
-            Tworzymy <br />
-            z{" "}
-            <span className="italic font-inter">
-              pasją
-            </span>
+          <motion.h1 variants={item} className="text-5xl font-medium">
+            Tworzymy <br />z <span className="italic font-inter">pasją</span>
           </motion.h1>
 
-          <motion.p
-            variants={item}
-            className="pt-11 font-inter font-normal"
-          >
+          <motion.p variants={item} className="pt-11 font-inter font-normal">
             Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą
             <br />
             wykwalifikowani projektanci oraz architekci, których zadaniem jest
@@ -98,25 +85,32 @@ function Offer() {
             małoobsługowe, dostosowane do współczesnego trybu życia.
           </motion.p>
 
-          <motion.div
-            variants={item}
-            className="pt-18"
-          >
+          <motion.div variants={item} className="pt-18">
             <button
-              className="cursor-pointer flex font-inter rounded-[200px] px-5.5 pt-3 pb-3.5 bg-[rgba(,,,0)] border border-[#F5F0EC] duration-500 hover:scale-105 hover:shadow-[0_2px_10px_rgba(20,83,45,0.15)]"
+              className="
+                cursor-pointer
+                flex
+                font-inter
+                rounded-[200px]
+                px-5.5
+                pt-3
+                pb-3.5
+                bg-[rgba(0,0,0,0)]
+                border
+                border-[#F5F0EC]
+                duration-500
+                hover:scale-105
+                hover:shadow-[0_2px_10px_rgba(20,83,45,0.15)]
+              "
             >
               Poznaj nas bliżej
-              <img
-                className="ml-2"
-                src={arrow}
-                alt="strzałka"
-              />
+              <img className="ml-2" src={arrow} alt="strzałka" />
             </button>
           </motion.div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Offer;
+export default About;
