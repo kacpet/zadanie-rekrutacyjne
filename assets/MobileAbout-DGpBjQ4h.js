@@ -1,1 +1,0 @@
-import{t as e}from"./index-_iDyKYYw.js";var t=e();function n(){return(0,t.jsx)(`div`,{id:`about`,className:`h-screen w-full bg-[#1B5B31] flex items-center`})}export{n as default};
