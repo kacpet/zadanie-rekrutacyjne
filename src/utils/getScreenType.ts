@@ -1,9 +1,13 @@
-import type { ScreenType } from "../components/types/screenType";
+import type { ScreenType } from "../types/screenType";
 
 export function getScreenType(): ScreenType {
-  const width = window.innerWidth;
+  if (window.matchMedia("(max-width: 767px)").matches) {
+    return "mobile";
+  }
 
-  if (width < 768) return "mobile";
-  if (width < 1024) return "tablet";
+  if (window.matchMedia("(max-width: 1023px)").matches) {
+    return "tablet";
+  }
+
   return "desktop";
 }
