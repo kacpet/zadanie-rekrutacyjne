@@ -1,4 +1,4 @@
-import{t as e}from"./index-D7IMctAU.js";import{t}from"./react-CM63EY2z.js";import{n,t as r}from"./adRespact-Cci2PTbq.js";var i=e();function a(){return(0,i.jsx)(`footer`,{id:`footer`,className:`w-full bg-black px-6 py-10`,children:(0,i.jsxs)(`div`,{className:`mx-auto flex max-w-sm flex-col items-center text-center`,children:[(0,i.jsx)(`img`,{src:n,alt:`logo`,className:`\r
+import{t as e}from"./index-lKhfFXvt.js";import{t}from"./react-v9gTOvsp.js";import{n,t as r}from"./adRespact-Cci2PTbq.js";var i=e();function a(){return(0,i.jsx)(`footer`,{id:`footer`,className:`w-full bg-black px-6 py-10`,children:(0,i.jsxs)(`div`,{className:`mx-auto flex max-w-sm flex-col items-center text-center`,children:[(0,i.jsx)(`img`,{src:n,alt:`logo`,className:`\r
             mb-8\r
             transition-transform\r
             duration-500\r

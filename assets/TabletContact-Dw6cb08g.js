@@ -1,4 +1,4 @@
-import{t as e}from"./index-D7IMctAU.js";import{t}from"./react-CM63EY2z.js";import{n,t as r}from"./adRespact-Cci2PTbq.js";var i=e();function a(){return(0,i.jsxs)(`footer`,{id:`footer`,className:`\r
+import{t as e}from"./index-lKhfFXvt.js";import{t}from"./react-v9gTOvsp.js";import{n,t as r}from"./adRespact-Cci2PTbq.js";var i=e();function a(){return(0,i.jsxs)(`footer`,{id:`footer`,className:`\r
         flex\r
         min-h-screen\r
         w-full\r
