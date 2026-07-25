@@ -43,12 +43,15 @@ function Home() {
         initial="hidden"
         animate="visible"
         className="
+          flex-1
+          flex
+          items-center
           px-9
           pt-14
           pb-8
         "
       >
-        <div className="flex flex-col">
+        <div className="flex w-full flex-col">
           <motion.h1
             variants={item}
             className="
@@ -83,21 +86,19 @@ function Home() {
             className="
               mt-6
               flex
-              flex-col
-              items-center
-              gap-3
+              justify-center
+              gap-4
             "
           >
             <a
               href="#contact"
               className="
                 flex
-                w-[60%]
-                min-w-[250px]
+                items-center
                 justify-center
                 rounded-full
                 bg-[#1B5B31]
-                px-4
+                px-5
                 py-2.5
                 text-sm
                 text-[#DCC1AB]
@@ -113,14 +114,12 @@ function Home() {
               href="#projects"
               className="
                 flex
-                w-[60%]
-                min-w-[250px]
                 items-center
                 justify-center
                 rounded-full
                 border
                 border-[#1B5B31]
-                px-4
+                px-5
                 py-2.5
                 text-sm
                 text-[#1B5B31]
@@ -145,8 +144,7 @@ function Home() {
 
       <div
         className="
-          flex-1
-          min-h-[320px]
+          mt-auto
           w-full
         "
       >

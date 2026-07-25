@@ -9,7 +9,7 @@ html {
   scrollbar-width: none;
   -ms-overflow-style: none;
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 
 html::-webkit-scrollbar {

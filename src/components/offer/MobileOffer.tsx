@@ -54,15 +54,19 @@ function MobileOffer() {
         overflow-hidden
         bg-[#F5F0EC]
         px-4
-        pb-4
-        pt-20
+        pb-8
+        pt-24
       "
     >
       {/* Nagłówek */}
       <motion.div
         variants={textContainer}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{
+          once: true,
+          amount: 0.3,
+        }}
         className="text-center"
       >
         <motion.h2
@@ -95,12 +99,15 @@ function MobileOffer() {
         </motion.p>
       </motion.div>
 
-
       {/* Karty */}
       <motion.div
         variants={cardContainer}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{
+          once: true,
+          amount: 0.2,
+        }}
         className="
           mt-5
           flex
@@ -109,8 +116,6 @@ function MobileOffer() {
           justify-between
         "
       >
-
-        {/* Projekty */}
         <OfferCard
           icon={pen}
           title="Projekty"
@@ -122,8 +127,6 @@ function MobileOffer() {
           link="Dowiedz się więcej"
         />
 
-
-        {/* Wizualizacje */}
         <OfferCard
           icon={eye}
           title="Wizualizacje"
@@ -135,8 +138,6 @@ function MobileOffer() {
           link="Dowiedz się więcej"
         />
 
-
-        {/* Realizacje */}
         <OfferCard
           icon={stars}
           title="Realizacje"
@@ -147,7 +148,6 @@ function MobileOffer() {
           "
           link="Zobacz nasze realizacje"
         />
-
       </motion.div>
     </div>
   );
@@ -202,7 +202,6 @@ function OfferCard({
         {text}
       </p>
 
-
       <a
         href="#projects"
         className="
@@ -225,7 +224,6 @@ function OfferCard({
           alt="strzałka"
         />
       </a>
-
     </motion.div>
   );
 }
