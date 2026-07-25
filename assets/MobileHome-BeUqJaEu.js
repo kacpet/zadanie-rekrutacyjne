@@ -1,4 +1,4 @@
-import{t as e}from"./index-DsTjkohX.js";import{t}from"./react-Buqmzsa1.js";import{t as n}from"./arrow-B3jBI4JY.js";import{t as r}from"./TabletSlider-D9WMO1yg.js";var i=e(),a={hidden:{},visible:{transition:{staggerChildren:.2}}},o={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{duration:.7}}};function s(){return(0,i.jsxs)(`div`,{id:`home`,className:`\r
+import{t as e}from"./index-jQGDHlQX.js";import{t}from"./react-DMzaTiPQ.js";import{t as n}from"./arrow-B3jBI4JY.js";import{t as r}from"./TabletSlider-Cfhmn91c.js";var i=e(),a={hidden:{},visible:{transition:{staggerChildren:.2}}},o={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{duration:.7}}};function s(){return(0,i.jsxs)(`div`,{id:`home`,className:`\r
         relative\r
         flex\r
         min-h-dvh\r
@@ -6,7 +6,7 @@ import{t as e}from"./index-DsTjkohX.js";import{t}from"./react-Buqmzsa1.js";impor
         flex-col\r
         overflow-hidden\r
         bg-[#DCC1AB]\r
-        pt-7\r
+        pt-20\r
       `,children:[(0,i.jsx)(t.div,{variants:a,initial:`hidden`,animate:`visible`,className:`\r
           flex-1\r
           flex\r
