@@ -1,0 +1,1 @@
+var e=`/zadanie-rekrutacyjne/assets/logo-BSrsw7Nt.svg`,t=`/zadanie-rekrutacyjne/assets/adRespact-CxX0Qfbm.svg`;export{e as n,t};

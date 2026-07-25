@@ -1,4 +1,4 @@
-import{t as e}from"./index-CHhblf_M.js";import{t}from"./react-nmgMNcS4.js";import{i as n,n as r,r as i,t as a}from"./arrow-BHRJ-H3T.js";var o=e(),s={hidden:{},visible:{transition:{staggerChildren:.2}}},c={hidden:{},visible:{transition:{delayChildren:.3,staggerChildren:.2}}},l={hidden:{opacity:0,y:40},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}};function u(){return(0,o.jsxs)(`div`,{id:`offer`,className:`\r
+import{t as e}from"./index-DsTjkohX.js";import{t}from"./react-Buqmzsa1.js";import{i as n,n as r,r as i,t as a}from"./arrow-BHRJ-H3T.js";var o=e(),s={hidden:{},visible:{transition:{staggerChildren:.2}}},c={hidden:{},visible:{transition:{delayChildren:.3,staggerChildren:.2}}},l={hidden:{opacity:0,y:40},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}};function u(){return(0,o.jsxs)(`div`,{id:`offer`,className:`\r
         relative\r
         z-0\r
         flex\r
@@ -8,9 +8,9 @@ import{t as e}from"./index-CHhblf_M.js";import{t}from"./react-nmgMNcS4.js";impor
         overflow-hidden\r
         bg-[#F5F0EC]\r
         px-4\r
-        pb-4\r
-        pt-20\r
-      `,children:[(0,o.jsxs)(t.div,{variants:s,initial:`hidden`,animate:`visible`,className:`text-center`,children:[(0,o.jsxs)(t.h2,{variants:l,className:`\r
+        pb-8\r
+        pt-24\r
+      `,children:[(0,o.jsxs)(t.div,{variants:s,initial:`hidden`,whileInView:`visible`,viewport:{once:!0,amount:.3},className:`text-center`,children:[(0,o.jsxs)(t.h2,{variants:l,className:`\r
             text-[26px]\r
             font-medium\r
             leading-tight\r
@@ -18,7 +18,7 @@ import{t as e}from"./index-CHhblf_M.js";import{t}from"./react-nmgMNcS4.js";impor
             pt-3\r
             text-[11px]\r
             leading-4\r
-          `,children:`Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem.`})]}),(0,o.jsxs)(t.div,{variants:c,initial:`hidden`,animate:`visible`,className:`\r
+          `,children:`Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem.`})]}),(0,o.jsxs)(t.div,{variants:c,initial:`hidden`,whileInView:`visible`,viewport:{once:!0,amount:.2},className:`\r
           mt-5\r
           flex\r
           flex-1\r

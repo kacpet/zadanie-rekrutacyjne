@@ -1,0 +1,49 @@
+import{t as e}from"./index-DsTjkohX.js";import{t}from"./react-Buqmzsa1.js";import{n,t as r}from"./adRespact-Cci2PTbq.js";var i=e();function a(){return(0,i.jsxs)(`div`,{id:`footer`,className:`flex flex-col justify-between w-full h-fit bg-black px-64 py-20`,children:[(0,i.jsxs)(`div`,{className:`flex justify-between items-center w-full`,children:[(0,i.jsx)(`div`,{className:`flex items-center`,children:(0,i.jsx)(`img`,{src:n,alt:`logo`,className:`transition-transform duration-500 hover:scale-105`})}),(0,i.jsxs)(`div`,{className:`flex justify-end items-center`,children:[(0,i.jsx)(`p`,{className:`text-[#F5F0EC] mr-5`,children:`Daj znać, co możemy dla Ciebie zrobić!`}),(0,i.jsx)(`a`,{target:`_blank`,href:`https://www.example.com/contact`,className:`\r
+              rounded-[200px]\r
+              bg-[#1B5B31]\r
+              px-5.5\r
+              pt-3\r
+              pb-3.5\r
+              mr-8\r
+              text-[#DCC1AB]\r
+              duration-500\r
+              transition-all\r
+              hover:scale-105\r
+              hover:bg-green-800\r
+              hover:shadow-[0_2px_10px_rgba(20,83,45,0.25)]\r
+            `,children:`Skontaktuj się z nami`})]})]}),(0,i.jsx)(`hr`,{className:`border-[#F5F0EC] my-15.5`}),(0,i.jsxs)(`div`,{className:`flex justify-between items-center w-full mb-30`,children:[(0,i.jsxs)(`div`,{className:`flex items-center text-white gap-4`,children:[(0,i.jsx)(`a`,{target:`_blank`,href:`https://www.example.com/contact`,className:`\r
+              transition-all\r
+              duration-300\r
+              hover:text-[#DCC1AB]\r
+              hover:-translate-y-1\r
+            `,children:`Kontakt`}),(0,i.jsx)(`a`,{href:`https://www.instagram.com`,target:`_blank`,className:`\r
+              flex\r
+              transition-all\r
+              duration-300\r
+              hover:text-[#DCC1AB]\r
+              hover:-translate-y-1\r
+            `,children:`Instagram`}),(0,i.jsx)(`a`,{href:`https://www.facebook.com/`,target:`_blank`,className:`\r
+              flex\r
+              transition-all\r
+              duration-300\r
+              hover:text-[#DCC1AB]\r
+              hover:-translate-y-1\r
+            `,children:`Facebook`}),(0,i.jsx)(`a`,{href:`https://pl.linkedin.com`,target:`_blank`,className:`\r
+              flex\r
+              transition-all\r
+              duration-300\r
+              hover:text-[#DCC1AB]\r
+              hover:-translate-y-1\r
+            `,children:`LinkedIn`})]}),(0,i.jsxs)(`div`,{className:`flex justify-end items-center text-[#F5F0EC] gap-4`,children:[(0,i.jsx)(`a`,{href:`tel:+48000000000`,className:`\r
+              flex\r
+              transition-all\r
+              duration-300\r
+              hover:text-[#DCC1AB]\r
+              hover:-translate-x-1\r
+            `,children:`000-000-000`}),(0,i.jsx)(`a`,{href:`giarddesign@kontakt.pl`,className:`\r
+              flex\r
+              transition-all\r
+              duration-300\r
+              hover:text-[#DCC1AB]\r
+              hover:-translate-x-1\r
+            `,children:`giarddesign@kontakt.pl`})]})]}),(0,i.jsxs)(`div`,{className:`flex justify-between items-center w-full mb-5`,children:[(0,i.jsx)(`div`,{className:`flex items-center text-white gap-12`,children:`Prawa zastrzeżone © 2022`}),(0,i.jsxs)(`div`,{className:`flex justify-end items-center text-[#F5F0EC] gap-4`,children:[(0,i.jsx)(`p`,{children:`made by`}),(0,i.jsx)(`img`,{src:r,alt:`adRespect`,className:`transition-transform duration-500 hover:scale-105`})]})]})]})}function o(){return(0,i.jsxs)(`div`,{id:`contact`,className:`min-h-screen`,children:[(0,i.jsx)(`div`,{id:`contact`,className:`flex w-full h-fit bg-white justify-center text-[#F5F0EC]`,children:(0,i.jsxs)(t.div,{className:`flex my-[60px] w-[1040px] py-[120px] px-[110px] bg-[#1B5B31] snap-start`,initial:{opacity:0,scale:.9,filter:`blur(10px)`},whileInView:{opacity:1,scale:1,filter:`blur(0px)`},viewport:{once:!0,amount:.3},transition:{duration:1,ease:[.22,1,.36,1]},children:[(0,i.jsx)(t.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.8,delay:.3,ease:[.22,1,.36,1]},children:(0,i.jsxs)(t.h2,{className:`text-white text-5xl font-medium`,initial:{opacity:0},whileInView:{opacity:1},viewport:{once:!0},transition:{duration:.6,delay:.5},children:[`Zostańmy w kontakcie! `,(0,i.jsx)(`br`,{}),`Znajdziesz nas na `,(0,i.jsx)(`span`,{className:`font-bold`,children:`Instagramie`}),`.`]})}),(0,i.jsxs)(t.div,{className:`flex flex-col justify-center gap-6`,initial:{opacity:0,scale:.85},whileInView:{opacity:1,scale:1},viewport:{once:!0},transition:{duration:.8,delay:.6,ease:[.22,1,.36,1]},children:[(0,i.jsx)(t.p,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.5,delay:.8},children:`Śledź nasze najnowsze realizacje!`}),(0,i.jsx)(t.button,{className:`rounded-[200px] bg-[#F5F0EC] px-5.5 pt-3 pb-3.5 mr-8 text-[#1B5B31]`,initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.5,delay:1},whileHover:{scale:1.08,boxShadow:`0 5px 20px rgba(0,0,0,0.15)`},whileTap:{scale:.95},children:(0,i.jsx)(`a`,{target:`_blank`,href:`https://www.example.com/contact`,children:`Instagram`})})]})]})}),(0,i.jsx)(t.div,{initial:{opacity:0},whileInView:{opacity:1},viewport:{once:!0,amount:.2},transition:{duration:1,delay:.8},children:(0,i.jsx)(a,{})})]})}export{o as default};
