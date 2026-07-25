@@ -1,1 +1,0 @@
-import{t as e}from"./index-TzkqyniV.js";var t=e();function n(){return(0,t.jsx)(`div`,{id:`contact`,className:`min-h-screen`})}export{n as default};
