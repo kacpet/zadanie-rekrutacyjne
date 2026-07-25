@@ -1,4 +1,4 @@
-import{t as e}from"./index-jQGDHlQX.js";import{t}from"./react-DMzaTiPQ.js";import{n,t as r}from"./arrow-CTxWfzH4.js";var i=e(),a={hidden:{opacity:0,y:40},visible:{opacity:1,y:0,transition:{duration:.8,ease:`easeOut`}}},o={hidden:{},visible:{transition:{staggerChildren:.2}}},s={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}};function c(){return(0,i.jsxs)(`div`,{id:`about`,className:`\r
+import{t as e}from"./index-D7IMctAU.js";import{t}from"./react-CM63EY2z.js";import{n,t as r}from"./arrow-CTxWfzH4.js";var i=e(),a={hidden:{opacity:0,y:40},visible:{opacity:1,y:0,transition:{duration:.8,ease:`easeOut`}}},o={hidden:{},visible:{transition:{staggerChildren:.2}}},s={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}};function c(){return(0,i.jsxs)(`div`,{id:`about`,className:`\r
         flex\r
         h-screen\r
         w-full\r
