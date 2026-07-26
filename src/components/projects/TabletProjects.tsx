@@ -175,7 +175,6 @@ function TabletProjects() {
                 }}
                 className="
                   w-full
-                  rounded-3xl
                   object-cover
                 "
               />
