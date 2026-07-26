@@ -7,10 +7,8 @@ function Footer() {
       id="footer"
       className="
         flex
-        min-h-screen
         w-full
         flex-col
-        justify-between
         bg-black
         px-12
         py-20
@@ -149,9 +147,7 @@ function Footer() {
 
       {/* Dół */}
       <div className="flex items-center justify-between">
-        <p className="text-sm text-white">
-          Prawa zastrzeżone © 2022
-        </p>
+        <p className="text-sm text-white">Prawa zastrzeżone © 2022</p>
 
         <div className="flex items-center gap-4 text-sm text-[#F5F0EC]">
           <p>made by</p>

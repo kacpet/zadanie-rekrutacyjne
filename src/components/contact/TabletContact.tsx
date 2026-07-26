@@ -3,8 +3,27 @@ import Footer from "../footer/TabletFooter";
 
 function Contact() {
   return (
-    <div id="contact" className="min-h-screen">
-      <div className="flex w-full justify-center bg-white px-8 py-16 text-[#F5F0EC]">
+    <div
+      id="contact"
+      className="
+        flex
+        min-h-screen
+        flex-col
+      "
+    >
+      <div
+        className="
+          flex
+          flex-1
+          w-full
+          items-center
+          justify-center
+          bg-white
+          px-8
+          py-16
+          text-[#F5F0EC]
+        "
+      >
         <motion.div
           className="
             flex
@@ -15,7 +34,6 @@ function Contact() {
             bg-[#1B5B31]
             px-14
             py-20
-            my-12
           "
           initial={{
             opacity: 0,

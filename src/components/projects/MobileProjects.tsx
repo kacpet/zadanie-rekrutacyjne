@@ -172,7 +172,6 @@ function Projects() {
                 }}
                 className="
                   w-full
-                  rounded-2xl
                   object-cover
                 "
               />
