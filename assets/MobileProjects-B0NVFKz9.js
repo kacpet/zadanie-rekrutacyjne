@@ -1,4 +1,4 @@
-import{n as e,o as t,t as n}from"./index-B34czh8J.js";import{t as r}from"./react-CU1olgwU.js";import{a as i,c as a,d as o,i as s,l as c,n as l,o as u,r as d,s as f,t as p,u as m}from"./arrow-CKR3KP94.js";var h=t(e(),1),g=n(),_=[{id:1,image:m,alt:`Realizacja projektu 1`},{id:2,image:c,alt:`Realizacja projektu 2`},{id:3,image:a,alt:`Realizacja projektu 3`},{id:4,image:f,alt:`Realizacja projektu 4`},{id:5,image:u,alt:`Realizacja projektu 5`},{id:6,image:i,alt:`Realizacja projektu 6`},{id:7,image:s,alt:`Realizacja projektu 7`},{id:8,image:d,alt:`Realizacja projektu 8`},{id:9,image:l,alt:`Realizacja projektu 9`}],v={default:1},y={hidden:{},visible:{}},b={hidden:{opacity:0,x:-30},visible:{opacity:1,x:0,transition:{duration:1,ease:`easeOut`}}},x={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{duration:1,ease:[.76,0,.24,1]}}},S={hidden:{opacity:0,y:20},visible:{opacity:1,y:0,transition:{duration:.6,delay:.3,ease:`easeOut`}}};function C(){let[e,t]=(0,h.useState)(!1),n=e?_:_.slice(0,4);return(0,g.jsx)(`div`,{id:`projects`,className:`\r
+import{n as e,o as t,t as n}from"./index-C9ajz_Wv.js";import{t as r}from"./react-YZayowER.js";import{a as i,c as a,d as o,i as s,l as c,n as l,o as u,r as d,s as f,t as p,u as m}from"./arrow-6MCdrlnS.js";var h=t(e(),1),g=n(),_=[{id:1,image:m,alt:`Realizacja projektu 1`},{id:2,image:c,alt:`Realizacja projektu 2`},{id:3,image:a,alt:`Realizacja projektu 3`},{id:4,image:f,alt:`Realizacja projektu 4`},{id:5,image:u,alt:`Realizacja projektu 5`},{id:6,image:i,alt:`Realizacja projektu 6`},{id:7,image:s,alt:`Realizacja projektu 7`},{id:8,image:d,alt:`Realizacja projektu 8`},{id:9,image:l,alt:`Realizacja projektu 9`}],v={default:1},y={hidden:{},visible:{}},b={hidden:{opacity:0,x:-30},visible:{opacity:1,x:0,transition:{duration:1,ease:`easeOut`}}},x={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{duration:1,ease:[.76,0,.24,1]}}},S={hidden:{opacity:0,y:20},visible:{opacity:1,y:0,transition:{duration:.6,delay:.3,ease:`easeOut`}}};function C(){let[e,t]=(0,h.useState)(!1),n=e?_:_.slice(0,4);return(0,g.jsx)(`div`,{id:`projects`,className:`\r
         min-h-screen\r
         w-full\r
         bg-[#DCC1AB]\r
@@ -28,7 +28,6 @@ import{n as e,o as t,t as n}from"./index-B34czh8J.js";import{t as r}from"./react
               gap-5\r
             `,children:n.map(e=>(0,g.jsx)(r.img,{src:e.image,alt:e.alt,initial:{opacity:0,y:25},animate:{opacity:1,y:0},transition:{duration:.5},className:`\r
                   w-full\r
-                  rounded-2xl\r
                   object-cover\r
                 `},e.id))}),!e&&(0,g.jsx)(`div`,{className:`\r
                 pointer-events-none\r
